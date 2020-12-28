@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700&display=swap');
+body {
+    background-color: #05050F;
+}
+
+.navbar {
+    background-color: #1D1D46;
+}
+
+.navbar .nav-item {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6A6A9F !important;
+}
+
+.navbar .nav-item.active {
+    color: #F2F2F2 !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+}
+
+.country {
+    font-size: 24px;
+    color: #C4C4C4;
+    letter-spacing: 6px;
+}
+
+.day-list button {
+    /* font-size: 12px; */
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    transition: all 0s;
+}
+
+.day-list button:focus {
+    box-shadow: none;
+}
+
+.day-list button.active {
+    background-color: #072FBE;
+    border-radius: 20px;
+}
+
+.main-charts {
+    margin-top: 7rem;
+}
+
+.main-charts img {
+    border: 1px solid #363661;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.main-charts .box .left-side .title {
+    font-size: 10px;
+    letter-spacing: .5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-charts .box .left-side .counter {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-charts .box .right-side .chart {
+    position: relative;
+    height: 4px;
+    width: 75%;
+    background-color: #25245D;
+    border-radius: 25px;
+}
+
+.main-charts .box .right-side .fill {
+    content: '';
+    position: absolute;
+    top: -25%;
+    left: 0;
+    height: 6px;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #4DFFDF 0%, #4DA1FF 96.35%);
+}
+
+.main-charts .box .right-side label {
+    display: block;
+    width: 75%;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: .5px;
+    color: #5A5A89;
+}
+
+.main-charts .box .right-side label::before {
+    content: '+';
+}
+
+@media (min-width: 768px) {
+    .daily-status {
+        margin-top: 20rem !important;
+    }
+}
+
+.daily-status img {
+    border: 1px solid #363661;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.daily-status label {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    font-size: 11px;
+    color: #5A5A89;
+    letter-spacing: 1.25px;
+}
+
+.daily-status span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #191932;
+}
+
+.footer .version {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #5A5A89;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333333;
+    z-index: 99999;
+}
+
+#status {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5421606/loader_xxxix.gif");
+    z-index: 9999;
+    background-position: center;
+    background-repeat: no-repeat;
+}

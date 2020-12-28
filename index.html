@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <title>Korona Takip</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark px-5">
+        <a class="navbar-brand" href="#">KORONA TAKIBI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-4">
+                    <a class="nav-link" href="#">Istatistik <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Analiz</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h3 class="country text-center font-weight-bold my-5">TURKIYE</h3>
+
+    <div class="container-fluid">
+        <div class="row day-list">
+            <div class="col-12 text-center">
+                <!-- <button class="btn text-white">1 Temmuz</button> -->
+                <!-- <button class="btn text-white">2 Temmuz</button> -->
+                <button class="btn text-white" id="prevDate">19 Temmuz</button>
+                <button class="btn text-white active" id="latestDate">6 Temmuz</button>
+                <!-- <button class="btn text-white">4 Temmuz</button> -->
+                <!-- <button class="btn text-white">5 Temmuz</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid main-charts">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 box">
+                <div class="row align-items-center mx-auto justify-content-center">
+                    <div class="col-2 col-lg-2">
+                        <img src="./public/images/corona.svg" alt="">
+                    </div>
+                    <div class="col-4 col-md-3 ml-4 ml-md-0 left-side">
+                        <span class="text-white d-block title">Toplam Vaka</span>
+                        <span class="text-white font-weight-bold counter TotalConfirmed">204.619</span>
+                    </div>
+                    <div class="col-5 col-md-7 right-side">
+                        <label class="NewConfirmed">+1.154</label>
+                        <div class="chart">
+                            <div class="fill w-25"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5 mt-md-0 col-md-4 box">
+                <div class="row align-items-center mx-auto justify-content-center">
+                    <div class="col-2 col-lg-2">
+                        <img src="./public/images/cases.svg" alt="">
+                    </div>
+                    <div class="col-4 col-md-3 ml-4 ml-md-0 left-side">
+                        <span class="text-white d-block title">Toplam Vefat</span>
+                        <span class="text-white font-weight-bold counter TotalDeaths">204.610</span>
+                    </div>
+                    <div class="col-5 col-md-7 right-side">
+                        <label class="NewDeaths">+1.154</label>
+                        <div class="chart">
+                            <div class="fill w-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 mt-md-0 box">
+                <div class="row align-items-center mx-auto justify-content-center">
+                    <div class="col-2 col-lg-2">
+                        <img src="./public/images/user-vip.svg" alt="">
+                    </div>
+                    <div class="col-4 col-md-3 ml-4 ml-md-0 left-side">
+                        <span class="text-white d-block title">Toplam İyileşen</span>
+                        <span class="text-white font-weight-bold counter TotalRecovered">204.610</span>
+                    </div>
+                    <div class="col-5 col-md-7 right-side">
+                        <label class="NewRecovered">+1.154</label>
+                        <div class="chart">
+                            <div class="fill w-75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid daily-status mt-5 pt-0 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 mt-5 mt-md-0 col-md-2 text-center">
+                <img src="./public/images/cases.svg" alt="">
+                <label class="d-block mt-4">VAKA SAYISI</label>
+                <span class="d-block mt-2 NewConfirmed">1.154</span>
+            </div>
+            <div class="col-12 mt-5 mt-md-0 col-md-2 text-center">
+                <img src="./public/images/corona.svg" alt="">
+                <label class="d-block mt-4">VEFAT SAYISI</label>
+                <span class="d-block mt-2 NewDeaths">20</span>
+            </div>
+            <div class="col-12 mt-5 mt-md-0 col-md-2 text-center">
+                <img src="./public/images/user-vip.svg" alt="">
+                <label class="d-block mt-4">İYİLEŞEN SAYISI</label>
+                <span class="d-block mt-2 NewRecovered">1.214</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer py-2">
+        <div class="row">
+            <div class="col-12 text-right">
+                <span class="version">2020.V1</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./public/scripts/index.js"></script>
+</body>
+
+</html>
