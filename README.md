@@ -8,4 +8,4 @@ Fonksiyonel yapı sayesinde kolay anlaşılır ve hızlı geliştirilebilir bir 
 ![corona-takibi-web](https://github.com/emircan-sahin/corona-takibi/blob/main/screenshots/corona-screenshot.png?raw=true)
 
 ## Kod Ekranı Görüntüsü
-![corona-takibi-web](https://github.com/emircan-sahin/corona-takibi/blob/main/screenshots/code-screenshot.png?raw=true)
+![corona-takibi-kod](https://github.com/emircan-sahin/corona-takibi/blob/main/screenshots/code-screenshot.png?raw=true)
