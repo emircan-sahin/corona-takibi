@@ -1,8 +1,8 @@
 # CORONA TAKİBİ (WEB PROJESİ)
+Fonksiyonel yapı sayesinde kolay anlaşılır ve hızlı geliştirilebilir bir proje.
+<br><br> 
 * Kullanılan diller: HTML CSS JS
 * Çerçeveler(Frameworks): Jquery, Bootstrap
-<br><br> 
-Fonksiyonel yapı sayesinde kolay anlaşılır ve hızlı geliştirilebilir bir proje.
 
 ## Web Site Görüntüsü
 ![corona-takibi-web](https://github.com/emircan-sahin/corona-takibi/blob/main/screenshots/corona-screenshot.png?raw=true)
