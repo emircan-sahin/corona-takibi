@@ -1,6 +1,6 @@
 # CORONA TAKİBİ (WEB PROJESİ)
 Fonksiyonel yapı sayesinde kolay anlaşılır ve hızlı geliştirilebilir bir proje.
-<br><br> 
+<br>
 * Kullanılan diller: HTML CSS JS
 * Çerçeveler(Frameworks): Jquery, Bootstrap
 
